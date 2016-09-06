@@ -10,5 +10,12 @@ package javaapplication10;
  * @author admin
  */
 public class resta {
+    double precio1=500;
+    int cantidad=3;
+    public double precioventa(double precio1, int cantidad){
+        double resultadodelawea=precio1*cantidad;
+        return resultadodelawea;
+    }
+    
     
 }
